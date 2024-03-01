@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "pnpm --stream -F '*' build",
+    "build:mobo": "pnpm --stream -F '@mobo-ts/mobo...' build",
+    "dev": "pnpm --parallel -F '*' dev",
+    "dev:mobo": "pnpm --parallel -F '@mobo-ts/mobo...' dev",
+    "lint": "eslint './packages/*/*/src/**/*.{ts,tsx}'",
+    "publish-npm": "pnpm publish -r --access public",
+    "publish-npm:pre-release": "pnpm publish -r --tag next --access public",
+    "test": "pnpm --parallel -F '*' test",
+    "test:w": "pnpm --parallel -F '*' test:w"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@tsconfig/recommended": "^1.0.3",
+    "@types/node": "^18.17.14",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-dirs": "^0.0.4",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "prettier-plugin-packagejson": "^2.4.10",
+    "tslib": "^2.6.2",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "zx": "^7.2.3"
+  },
+  "engines": {
+    "pnpm": ">=8.15.1"
+  }
+}
