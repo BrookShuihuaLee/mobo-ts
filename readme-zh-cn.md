@@ -1,3 +1,5 @@
+[English (US)](./readme.md) | 中文（简体）
+
 # Mobo
 
 Mobo (Motherboard), 一个插件化 TS 库。

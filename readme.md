@@ -1,3 +1,5 @@
+English (US) | [中文（简体）](./readme-zh-cn.md)
+
 # Mobo
 
 Mobo (Motherboard), A pluggable typescript library.
