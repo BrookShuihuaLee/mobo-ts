@@ -4,6 +4,8 @@
 
 Mobo (Motherboard), 一个插件化 TS 库。
 
+[![](https://s1.locimg.com/2024/09/09/ee0ba0dac1974.png)](https://stackblitz.com/edit/vitejs-vite-hyb4ts?file=src%2Ftest-mobo.ts)
+
 # 安装
 
 ```sh

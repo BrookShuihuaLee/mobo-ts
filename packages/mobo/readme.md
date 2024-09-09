@@ -2,7 +2,9 @@
 
 Mobo (Motherboard), A pluggable typescript library.
 
-# How to install
+[![](https://s1.locimg.com/2024/09/09/ee0ba0dac1974.png)](https://stackblitz.com/edit/vitejs-vite-hyb4ts?file=src%2Ftest-mobo.ts)
+
+# Installation
 
 ```sh
 pnpm i @mobo-ts/mobo
@@ -10,7 +12,7 @@ pnpm i @mobo-ts/mobo
 npm i @mobo-ts/mobo
 ```
 
-# How to use
+# Usage
 
 The plugin mainly consists of three parts:
 
